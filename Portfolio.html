@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+  </head>
+
+  <style>
+    body{
+      background-color: rgb(167, 158, 158);
+    }
+    p{
+      font-family: verdana;
+      
+    }
+    .portfolio-pic{
+      width: 500px;
+      margin-left: -84px;
+      margin-bottom: -80px;
+      margin-bottom: -80px;
+    }
+    .portfolio-pic img{
+      width: 100%;
+      height: 500px;
+      object-fit: contain;
+      mix-blend-mode: multiply;
+      
+    }
+    .profile-des{
+      width: 320px;
+      margin-left: 350px;
+    }
+
+    .profile-preview{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    @media (max-width: 750px) {
+      .profile-preview{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .profile-des{
+        width: 300px;
+        margin-left: 10px;
+      }
+      .portfolio-pic{
+        margin-right: -80px;
+      }
+    }
+    .port-intro{
+      font-size: 15px;
+      color: rgb(18, 18, 49);
+    }
+    .port-des{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    @media (max-width: 750px) {
+      .port-des{
+        font-size: 16px;
+      }
+    }
+    .port-emphasis{
+      font-size: 13px;
+      color: rgb(18, 18, 49);
+      width: 400px;
+    }
+    @media (max-width: 750px) {
+      .port-emphasis{
+        font-size: 13px;
+        width: 320px;
+      }
+    }
+    .port-button{
+      background-color: rgb(51, 51, 148);
+      border: none;
+      padding: 8px 12px;
+      color: white;
+      font-size: 12px;
+      margin-right: 8px;
+      border-radius: 5px;
+    }
+    .portfolio-head{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .right-section{
+      display: flex;
+    }
+    .right-section div{
+      margin-right: 30px;
+      font-family: cursive;
+      font-size: 12px;
+      color: rgb(51, 51, 148);
+    }
+    .left-section{
+      font-family: cursive ;
+      font-size: 24px;
+      margin-left: 16px;
+    }
+    @media (max-width: 750px) {
+      .right-section div{
+        margin-right: 16px;
+      }
+    }
+
+
+  </style>
+  
+  <body>
+    <div class="portfolio-head">
+      <div class="left-section">Deepminds</div>
+      <div class="right-section">
+        <div>HOME</div>
+        <div>ABOUT</div>
+        <div>SERVICES</div>
+        <div>RESUME</div>
+        <div>BLOG</div>
+        <div>CONTACT</div>
+      </div>
+    </div>
+
+
+
+    <div class="profile-preview">
+    <div class="profile-des">
+      <p class="port-intro">Hello there!</p> 
+      <p class="port-des">I'm a Front-end Web Developer 
+        & Creative Writer
+      </p>
+      <p class="port-emphasis">Every true masterpiece captures the attention 
+        and mind of its audience. You can be rest assured of getting 
+        such masterpiece from me. 
+      </p>
+      
+      <div>
+        <button class="port-button">Hire Me</button>
+        <button class="port-button">Portfolio</button>
+      </div>
+  </div>
+
+    <div class="portfolio-pic">
+      <img src="thumbnails/ppt.jpg">
+    </div>
+  </div>
+
+
+  </body>
+</html>

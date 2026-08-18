@@ -1,0 +1,119 @@
+  body{
+    padding-top: 8px;
+    padding-bottom: 75px;
+    position: relative;
+    background-color: rgb(235, 232, 232);
+  }
+  .header{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+    left: 2px;
+    right: -8px;
+    height: 40px;
+    background-color: rgb(77, 77, 194);
+  }
+  .header div{
+    position: absolute;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-top: 4px;
+  }
+  .side{
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    background-color: black;
+    z-index: 1;
+  }
+  .up{
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    right: -8px;
+    height: 2px;
+    background-color: black;
+    z-index: 10;
+  }
+  .down{
+    position: absolute;
+    bottom: 0;
+    right: -8px;
+    left: 0;
+    height: 40px;
+    background-color: rgb(41, 41, 156);
+    color: white;
+    font-family: tahoma;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro{
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    height: 380px;
+    margin-top: 40px;
+    margin-left: 18px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+  }
+    
+  @media (max-width: 750px) {
+    .intro,
+    .conclusion{
+      width: 560px;
+    }
+  }
+  .intro-con{
+    width: 250px;
+    padding-top: 18px;
+    padding-left: 18px;
+  }
+  .intro img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+  }
+  .about{
+    font-family: arial;
+    margin-top: 16px;
+    padding-left: 20px;
+  }
+  .name-bearer{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  .intro-des{
+    font-size: 14px;
+  }
+  .conclusion{
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    height: 170px;
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .con-title{
+    font-weight: bold;
+    font-family: arial;
+    font-size: 18px;
+    margin-bottom: 14px;
+    margin-left: 18px;
+    padding-top: 40px;
+
+  }
+  .con-des{
+    font-family: tahoma;
+    font-size: 14px;
+    margin-left: 40px;
+  }
+
