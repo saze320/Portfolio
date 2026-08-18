@@ -5,7 +5,7 @@ header{
   right: 0;
   block-size: 50vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(/images/altum.jpg);
+  url(images/altum.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
